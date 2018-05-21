@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Statistics challenge
+
+server:
+  port: 8080
+
+statistics:
+  time: 60

@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: Statistics challenge
+
+statistics:
+  time: 60

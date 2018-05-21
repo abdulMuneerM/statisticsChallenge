@@ -4,7 +4,7 @@ There will be two APIs, one of them is called every time a transaction is made. 
 API. The other one returns the statistic based of the transactions of the last 60 seconds.
 
 ## Usage
-#####POST /transactions
+##### POST /transactions
 
 Every Time a new transaction happened, this endpoint will be called.
 
@@ -27,7 +27,7 @@ Returns:
     204 - if transaction is older than 60 seconds
 
 
-####GET​ ​/statistics
+#### GET​ ​/statistics
 
 This is the main endpoint of this task, this endpoint have to execute in constant time and memory (O(1)). It returns the
  statistic based on the transactions which happened in the last 60 seconds.
